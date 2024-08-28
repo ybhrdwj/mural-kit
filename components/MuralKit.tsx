@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, ReactNode } from 'react';
 import { toast } from 'sonner';
 
-interface MuralKitProps {
+export interface MuralKitProps {
   logoSvg: string;
   brandmarkSvg: string;
   brandkitUrl: string;
